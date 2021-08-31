@@ -22,10 +22,10 @@ See ```requirements.txt``` for python packages.
 
 ```bash
 sudo apt install swig
+pip install -r requirements.txt
 cd tf_pose/pafprocess
 swig -python -c++ pafprocess.i && python setup.py build_ext --inplace
 cd ../../
-pip install -r requirements.txt
 ```
 
 ## Running Pipeline
